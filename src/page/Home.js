@@ -17,7 +17,7 @@ const Home = () => {
             Boost your productvity and build your mood with a glass of coffee in the morning .
           </p>
           <div className='w-4/12 pt-4'>
-            <DefaultBtn name={'Meet us'} onClick={AboutMessage}/>
+            <DefaultBtn name={'Meet us'} onClick={() => AboutMessage('This is a dynamic message!')}/>
           </div>
         </div>
         <div className='h-full w-1/2 flex flex-row justify-center items-end'>
