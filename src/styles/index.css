@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Lisu+Bosa&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lisu+Bosa&display=swap");
 
 @layer base {
   @font-face {
@@ -37,5 +37,5 @@
 
 #price,
 #number {
-  font-family: 'Lisu Bosa', serif;
+  font-family: "Lisu Bosa", serif;
 }
